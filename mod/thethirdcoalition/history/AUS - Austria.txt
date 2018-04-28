@@ -1,0 +1,128 @@
+﻿capital = 153
+
+oob = "AUS_1805"
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.15
+
+# Starting tech
+set_technology = {
+	
+}
+
+set_convoys = 150
+
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 69
+		}
+
+		fascism = {
+			popularity = 1
+		}
+		
+		communism = {
+			popularity = 30
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+add_ideas = {
+	
+}
+
+create_country_leader = {
+	name = "Franz I of Austria"
+	desc = "POLITICS_CHARLES_DE_GAULLE_DESC"
+	picture = "GFX/Leaders/Austria/Franz_I_of_Austria.dds"
+	expire = "1821.1.1"
+	ideology = conservatism
+	traits = {
+		
+	}
+}
+
+
+
+create_field_marshal = {
+	name = "Archduke Charles"
+	picture = "GFX/Leaders/Austria/Archduke_Charles_of_Austria.dds"
+	traits = { old_guard career_officer }
+	skill = 4
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Archduke John"
+	picture = "Archduke_John_of_Austria.dds"
+	traits = { defensive_doctrine old_guard trait_cautious }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Philippe Leclerc"
+	picture = "portrait_france_philippe_leclerc.dds"
+	traits = {  armor_officer trait_reckless career_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Henri Giraud"
+	picture = "portrait_france_henri_giraud.dds"
+	traits = {  trickster trait_cautious career_officer infantry_officer }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 4
+	logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Jean-Marie Charles Abrial"
+		picture = "Portrait_France_Jean-Marie_Charles_Abrial.dds"
+	traits = { superior_tactician }
+	skill = 3
+}
+
+create_navy_leader = {
+	name = "Jean-Pierre Esteva"
+		picture = "Portrait_France_Jean-Pierre_Esteva.dds"
+	traits = { seawolf }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "René-Émile Godfroy"
+		picture = "Portrait_France_Rene-Emile_Godfroy.dds"
+	traits = { old_guard_navy spotter }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Jean de Laborde"
+	picture = "Portrait_France_Jean_de_Laborde.dds"
+	traits = {  }
+	skill = 1
+}
+
+### Ship Variants ###
